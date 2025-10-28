@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praça Sérgio Pacheco | Prefeitura de Uberlândia</title>
+  <style>
+    :root {
+      --cor1: #ffd54f;
+      --cor2: #0077b6;
+      --cor3: #d62828;
+      --cor4: #f77f00;
+      --cor5: #ffffff;
+      --cor-fundo: #f4f4f4;
+      --cor-texto: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--cor2), var(--cor4));
+      color: var(--cor5);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to right, #0077b6, #f77f00);
+      padding: 0.7rem;
+      text-align: center;
+      z-index: 1000;
+
+      background-color: var(--cor2);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+     padding: 0.5rem 1rem;
+      border-radius: 4px;
+     transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+    background-color: #ff9900; 
+    }
+
+    nav a.active {
+      background-color: #f77f00; /* ativo: laranja principal */
+      color: #fff; 
+      background-color: var(--cor4);
+      color: #fff;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .section {
+      background-color: white;
+      margin-bottom: 2rem;
+      padding: 1.5rem 1.5rem;
+      border-left: 5px solid var(--cor2);
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .borda-azul {
+      border-left: 8px solid #0078d7; 
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .section h2 {
+      border-bottom: 2px solid var(--cor3);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: var(--cor3);
+    }
+
+    .item {
+      margin-bottom: 1.5rem;
+    }
+
+    .item h3 {
+      margin-bottom: 0.5rem;
+      color: var(--cor4);
+    }
+
+    .item p {
+      margin-left: 1rem;
+    }
+
+    .item img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 0.5rem;
+      border-radius: 6px;
+      border: 2px solid var(--cor2);
+    }
+
+    footer {
+      background-color: var(--cor2);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        padding: 0.7rem;
+        width: 100%;
+        text-align: center;
+      }
+
+      .section, .construcoes {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Praça Sérgio Pacheco</h1>
+    <h3>Um Patrimônio Vivo de Uberlândia.</h3>
+  </header>
+
+  <nav>
+    <a href="#hpraca">História da Praça</a>
+    <a href="#historia">Projeto original e Alteraçoes</a>
+    <a href="#construcoes">Construções</a>
+    <a href="#arvore-centenaria">Árvore Centenária</a>
+    <a href="#cultural-e-ambiental">Cultura & Meio Ambiente</a>
+    <a href="#intencao-projeto">Projeto & Expectativas</a>
+  </nav>
+
+  <div class="container">
+    <section id="hpraca" class="section">
+      <h2>História da Praça</h2>
+      <h3>Idealizadores do projeto</h3>
+      <p>• Em 1962, o arquiteto João Jorge Coury idealizou um projeto para transformar o terreno em praça
+          No entanto, esse primeiro projeto não foi adiante imediatamente. 
+        <br>
+        • Em 1972, houve outro esboço de projeto por arquitetos e engenheiros durante a gestão do prefeito Virgílio Galassi.
+      </p>
+
+      <h3>Origem do terreno</h3>
+        <p>• O espaço que hoje é a Praça Sérgio Pacheco era antes o pátio da Companhia Mogiana de Estradas de Ferro. 
+        <br>
+        • A área foi cedida à Prefeitura para uso público (cívico / social).
+        <br>
+        • Antes de se tornar praça, a antiga Companhia Mogiana de Estradas de Ferro, desempenhou um papel fundamental no crescimento econômico e urbano de Uberlândia nas primeiras décadas do século XX.
+        <br>
+        • Com a desativação da ferrovia, a área foi oficialmente cedida para uso do município, sendo destinada a um projeto que valorizasse o espaço cívico e o bem-estar da população.
+        <br>
+        • Um estudo acadêmico mostra que o terreno passou por um processo de qualificação/requalificação: de área ferroviária para espaço de convivência urbana.
+        </p>
+    </section>
+
+    <section id="historia" class="section">
+     <h2>Projeto original e Alteraçoes</h2>
+        <h3>Projetos Iniciais</h3>
+        <p>• O arquiteto Joao Jorge Coury idealizou um projeto para a praça  tendo rodoviaria, hotel, prefeitura, camara municipal e monumentos,
+            <br>
+            • Posteriormente outro projeto foi idealizado  Esse também previa elementos administrativos (Prefeitura, Câmara, Judiciário), além de espaços culturais, lazer, biblioteca, correios.  
+
+        <h3>Inauguração</h3>
+        <p>• O projeto paisagístico da praça foi idealizado por nomes importantes da arquitetura brasileira, como o paisagista Roberto Burle Marx e o arquiteto Ary Garcia Roza, referência em projetos urbanos da época.</p>
+        <img src="imagens/ftpracaantes.jpg" alt="Foto antiga da Praça Sérgio Pacheco" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <h4>Projeto original</h4>
+        <p>
+          • Inaugurada em 1976, a Praça Sérgio Pacheco foi concebida com elementos modernos de urbanismo e paisagismo. O plano original incluía:
+          <br>
+          - Um espelho d’água.
+          <br>
+           - Morros e canteiros elevados que ajudavam a isolar acusticamente o espaço.
+          <br>
+           - Um total de mais de mil árvores plantadas.
+          <br>
+          - Calçamentos com mosaico ou pedra portuguesa e desenho de piso artístico.
+        </p>
+        <br>
+      <h3>Alteraçoes feitas desde a inauguração</h3>
+      <p>
+        • Desde sua inauguração, ocorreram diversas modificações — algumas mantendo o espírito original, outras alterando bastante o desenho original da praça. como:
+        <br>
+        - Espelho d'agua aterrado
+        <br>
+        - Canteiros mais elevados foram rebaixados
+        <br>
+        - Espécies ornamentais e outras plantas originais foram substituídas.
+        <br>
+        - Estufa de plantas existente no projeto original foi demolida.
+        <br>
+        - Após mudança de gestão municipal e a praça passou a ser fragmentada por avenidas/viadutos que cortaram a área
+        <br>
+        - A implantação de viações ou terminais de ônibus que invadiram parte do espaço contribuindo para transformar parte de praça em zona de transito ou de espera.
+        <br>
+        - Foram instaladas quadras poliesportivas, playgrounds, ginásios, pistas de caminhada — que fazem parte hoje da praça.
+      </p>
+    </section>
+        
+    </div>
+
+
+    <section id="construcoes" class="section">
+      <h2>Construções da Praça</h2>
+      <h3>Casa do Papai Noel</h3>
+        <img src="imagens/paipainoel.jpg" alt="casa papai noel" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <h3>• Uma estrutura temática montada na praça para o Natal.<h3>
+        <br>
+        <h3>Historia</h3>
+        <p>• Foi construída em 1997 pelo então secretário de Indústria, Comércio e Turismo de Uberlândia, Edson César Zanatta. 
+            É usada para recepção de visitantes na época natalina; enfeitada, com neve artificial em alguns momentos, decoração especial etc. 
+            Fora da temporada de Natal, já abriga outras atividades (ex: campeonatos de xadrez)
+        </p>
+        <img src="imagens/parquinho.jpg" alt="parquinho" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <h3>Parquinho</h3>
+        <p>•Parquinho construido apos as mudanças feitas na praça, a intençao dela e atrair familias que buscam se divertir com seus filhos</p>
+        
+      
+    </section>
+
+    <section id="arvore-centenaria" class="section">
+      <h2>Árvore Centenária</h2>
+      <h3>Gameleira</h3>
+        <p>
+          •A praça possui uma gameleira centenaria que possui cerca de 4 metros de diametro e 50 metros de altura que sobreviveu a diversos empecilios
+          Em 2017 ela já havia sido parcialmente queimada por ação criminosa.
+            <br>
+          •Em 13 de novembro de 2023 ocorreu um incêndio que danificou parte da árvore; um galho precisou ser removido para evitar queda.
+          Após o incêndio, observou-se que a gameleira começou a perder folhas rapidamente, com alterações no tom de verde das folhas. Houve preocupação se ela poderá sobreviver completamente.
+        </p>
+        <img src="imagens/ftgameleira.jpg" alt="foto gameleira" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </section>
+
+    <section id="cultural-e-ambiental" class="section">
+      <h2>Cultura e Meio Ambiente</h2>
+      <h3>Arborização da praça</h3>
+        <p>
+           • No projeto inicial da praça ela foi planejada com mil arvores.
+           <br>
+           • O paisagismo era rico e com espécies ornamentais, canteiros elevados, e foi projetado para criar sombra, conforto e apelo estético.
+        </p>
+        <h3>Importancia social e funcional</h3>
+         <p>
+            •As árvores servem como sombra para população nos dias de muito sol, constituindo um refúgio urbano no centro.
+            <br>
+            •Elas também contribuem para a estética, para o microclima local (redução de temperatura, evaporação), conforto no ambiente de convivência, além de visual verde.
+         </p>
+       </div>
+       
+       <div clas="item" id="Uso cultural e social">
+            <h3>Uso cultural e social</h3>
+            <p> •A praça virou um ponto importante de convivência no centro da cidade, recebendo eventos culturais, musicais, 
+                feiras, festivais como o Arte na Praça.
+                <br>
+                •Também funciona como espaço de lazer: quadras esportivas, parquinho infantil, área de caminhada, etc.
+            </p>
+       </div>
+    </section>
+
+    <section id="intencao-projeto" class="section">
+      <h3>Intençoes e Espectativas</h3>
+            <p>•Nossa intençao com este projeto é enriquecer a populaçao com a historia de sobre uma das praças mais importantes de uberlandia
+                contando a historia da praça contando a historia das construçoes emblematicas e que poucas pessoas tem conhecimento de sua historia.
+               <br>
+                •Nossas expectativas com este projeto e uma populaçao mais consciente sobre a historia de sua cidade, e manter vivo uma historia tao importante.
+            </p>
+    </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 | Projeto da Praça Sérgio Pacheco — Inovação e Comunicação | Prefeitura de Uberlândia</p>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('.section');
+      const navLinks = document.querySelectorAll('nav a');
+
+      function changeActiveLink() {
+        let index = sections.length;
+
+        while (--index && window.scrollY + 100 < sections[index].offsetTop) {}
+        navLinks.forEach(link => link.classList.remove('active'));
+        navLinks[index]?.classList.add('active');
+      }
+
+      changeActiveLink();
+      window.addEventListener('scroll', changeActiveLink);
+    });
+    
+  </script>
+</body>
+</html>
+
